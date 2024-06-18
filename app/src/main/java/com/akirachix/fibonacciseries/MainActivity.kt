@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.RecyclerView
 class MainActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var fibonacciAdapter: FibonacciAdapter
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -37,6 +36,5 @@ class MainActivity : AppCompatActivity() {
             b = c
         }
         return fibonacciNumbers
-
     }
 }
