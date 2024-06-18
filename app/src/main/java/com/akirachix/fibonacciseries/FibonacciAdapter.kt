@@ -25,6 +25,6 @@ import androidx.recyclerview.widget.RecyclerView
         }
     }
     class FibonacciViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
-        var fibonacciNumber = itemView.findViewById<TextView>(R.id.fibonacci_number)
+        var fibonacciNumber = itemView.findViewById<TextView>(R.id.tvNumber)
     }
 
